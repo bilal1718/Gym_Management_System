@@ -1,0 +1,47 @@
+body{
+    background: lightblue;
+}
+
+.panel{
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    border: none;
+    margin-top: 50px;    
+}
+
+.panel .panel-heading .radio-inline:first-of-type{ border-radius: 5px 0 0 5px; }
+.panel .panel-heading .radio-inline:last-of-type{ border-radius: 0 5px 5px 0; }
+.panel .panel-body .table{ margin: 0; }
+.panel .panel-body .table tr td{ border-color: blue;}
+.panel .panel-body .table thead tr.active th{ 
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px;
+}
+.panel .panel-body .table thead tr th:nth-of-type(2){ width: 50%; }
+.panel .panel-body .table tbody tr td{
+    color: #000;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.panel .panel-body .table tbody .action-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.panel .panel-body .table tbody .action-list li{ display: inline-block; }
+.panel .panel-body .table tbody .action-list li a{
+    color: #fff;
+    font-size: 13px;
+    line-height: 28px;
+    height: 28px;
+    width: 28px;
+    padding: 0;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+.panel .panel-body .table tbody .action-list li a:hover{ box-shadow: 0 0 5px #ddd; }
+
+   
